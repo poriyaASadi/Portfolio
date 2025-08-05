@@ -30,12 +30,12 @@ const Index = () => {
                         <h1
                             className={`text-2xl sm:text-3xl md:!text-5xl  text-white font-medium tracking-tight`}
                         >
-                        Welcome to <span className='text-blue-400 font-mono font-bold'>Magic</span> Table</h1>
-                        <p className='text-sm md:text-base text-slate-200'>A sample of work for fun, of course you can use it too</p>
+                        Welcome to my <span className='text-blue-400 font-mono font-bold'>personal</span> website</h1>
+                        <p className='text-sm md:text-base text-slate-200'>A portfolio to showcase your resume and achievements</p>
                         <IconInfo/>
                         <Link to={'/main-page'}
                             className='p-2 hover:bg-blue-800 transition-colors duration-150 border-transparent bg-blue-500 text-white text-sm font-bold rounded-full border-2 px-10'
-                        >Show Project</Link>
+                        >Show Website</Link>
                     </div>
                 </div>
             </section>

@@ -12,7 +12,7 @@ const GithubRepos = ({ username }) => {
             try {
                 setLoading(true);
                 const reposData = await fetchRepos(username);
-                console.log(reposData[0]);
+               // console.log(reposData[0]);
 
                 const cached = getCachedRepos('poriyaASadi', true);
                 // in cached true or false 

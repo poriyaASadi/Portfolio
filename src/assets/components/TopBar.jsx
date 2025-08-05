@@ -5,8 +5,7 @@ import IconSkills from './icons/IconSkills';
 import GithubRepos from './Repos';
 import Channel from './Channel';
 import Projects from './Projects';
-const TopBar = ({ userinfo }) => {
-  const [Info, setInfo] = useState(userinfo);
+const TopBar = () => {
   const { myData, setMyData } = useContext(MyContext);
   return (
     <div className='w-full'>
