@@ -12,7 +12,7 @@ const TopBar = () => {
       <div>
         {/* image Top bar */}
         <div className='min-w-full relative'>
-          <img src="/public/image/astronaut-sci-fi-3840x2160-10710.jpg"
+          <img src="/image/astronaut-sci-fi-3840x2160-10710.jpg"
             className='w-full h-[15rem] lg:h-[17rem] object-top object-cover'
             alt="CoverImage" />
 
@@ -25,7 +25,7 @@ const TopBar = () => {
           <div className='p-3 col-span-2'>
             <div className='flex items-center gap-1'>
               <div className='w-24 h-24 rounded-full  bg-white shadow-md dark:bg-slate-900'>
-                <img src="/public/image/me-profile.jpeg"
+                <img src="/image/me-profile.jpeg"
                   className='w-full h-full rounded-full object-cover'
                   alt="Avatar" />
               </div>

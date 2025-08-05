@@ -36,7 +36,7 @@ function SideBar() {
                         </div>
                         <div className='flex items-center py-3 gap-2 mb-3 border-b border-slate-50 dark:border-slate-700 '>
                             <div className='bg-orange-100 rounded-full'>
-                                <img src="/public/image/me-profile.jpeg" className='w-14 rounded-full h-14' alt="profile/image" />
+                                <img src="/image/me-profile.jpeg" className='w-14 rounded-full h-14' alt="profile/image" />
                             </div>
                             <div className='text-left'>
                                 <h3 className=' text-slate-400 text-sm'>Product Designer</h3>

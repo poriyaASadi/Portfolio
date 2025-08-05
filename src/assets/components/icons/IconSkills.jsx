@@ -44,7 +44,7 @@ function IconSkills() {
                 {
                 listWork.map((item,index) => (
                     <li key={index} className='w-[4.5rem] sm:w-20 py-2 cursor-pointer flex flex-col justify-center items-center dark:bg-slate-900 rounded-md bg-slate-100 shadow-lg'>
-                        <img src={`/public/image/Svg-skills/${item}.svg`} alt="skill-icon" className='min-h-10 min-w-10' />
+                        <img src={`/image/Svg-skills/${item}.svg`} alt="skill-icon" className='min-h-10 min-w-10' />
                         <p className='text-xs text-center mt-0.5 dark:text-white'>{item}</p>
                     </li>
                 ))   

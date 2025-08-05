@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react';
 // dom
 import { Link } from 'react-router-dom';
 // components 
-import Particle from '../assets/components/particle/particle';
-import IconInfo from '../assets/components/icons/IconInfo';
+import Particle from '../assets/components/particle/Particle.jsx';
+import IconInfo from '../assets/components/icons/IconInfo.jsx';
 
 
 
